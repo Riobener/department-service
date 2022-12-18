@@ -20,6 +20,7 @@ repositories {
 
 dependencies {
 	implementation("io.micrometer:micrometer-registry-prometheus:1.10.2")
+	implementation("de.siegmar:logback-gelf:2.0.0")
 	implementation("org.springframework.boot:spring-boot-starter-actuator:2.7.5")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
